@@ -4,13 +4,13 @@ body {
     color: black;
 }
 h1 {
-    font-size: 25px;
+    font-size: 1.6em;
 }
 h2 {
-    font-size: 22px;
+    font-size: 1.4em;
 }
 h3 {
-    font-size: 16px;
+    font-size: 1.2em;
     text-transform: uppercase;
 }
 /* Section Styles */
