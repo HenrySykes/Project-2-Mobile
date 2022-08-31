@@ -76,23 +76,18 @@ footer .nav {
     color: black;
     font-weight: bold;
 }
-#footerlinks { 
-    width: 100%; 
-    padding-inline-start: 0;
-}
-#footerlinks li {
-    display: inline-block; 
-    padding: none;
-    margin: 20px 0 20px 10px;
-}
-#footerlinks a {
+footer ul {
+    display: flex;
+    justify-content: space-between;
     list-style-type: none;
+    padding: 1em;
+}
+#footerlinks a { 
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
-#footerlinks li:last-child {
-    margin-left: 40%;
+footer li:last-child { 
     text-transform: uppercase;
 }
 hr {
