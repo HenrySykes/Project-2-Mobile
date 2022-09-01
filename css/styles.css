@@ -3,7 +3,12 @@
     box-sizing: border-box;
 }
 
-body {
+h1, h2, h3, h4, a {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    font-weight: bolder;
+}
+p {
     font-family: 'Quicksand', sans-serif;
     color: black;
 }
@@ -69,7 +74,7 @@ header {
     margin: 0;
   }
 
-  .intro-para {
+.intro-para {
     color: black;
   }
 
@@ -107,7 +112,6 @@ header {
 .contact a {
     text-decoration: none;
     color: black;
-    font-weight: bold;
 }
 
 ul {
@@ -137,7 +141,7 @@ footer {
   }
 
 hr {
-    margin-top: 20px;
+    margin: 20px 0;
 }
 
   /* ---- Styles for tablet layout ---- */
@@ -152,7 +156,6 @@ hr {
     header li a {
         background-color: #dbf3ff;
         text-transform: uppercase;
-        font-weight: bold;
         width: auto;
         text-decoration: none;
         color: black;
@@ -190,5 +193,25 @@ hr {
     /* ---- Styles for desktop screen ---- */
 
     @media screen and (min-width: 1024px) {
-        
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 3em;
+        }
+
+    .top-nav, 
+    .top-nav li {
+        width: initial;
+        margin-bottom: 0;
+    }
+            
+    .card {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 313px;
+        padding: 0;
+        align-content: center;
+        }
     }
