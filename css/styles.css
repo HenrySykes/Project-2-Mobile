@@ -29,7 +29,7 @@ h4 {
 
 header .name {
     font-size: 25px;
-        color: white;
+        color: black;
     }
 
 header ul {
@@ -61,7 +61,7 @@ header li:last-child {
   }
 
 header {
-    background-color: #f6bbbb;
+    background-color: #dbf3ff;
     text-align: center;
     overflow: hidden;
     padding: 10px 10px 60px 10px;
@@ -69,11 +69,11 @@ header {
     margin: 0;
   }
 
-  /* ---- Section Styles ---- */
-
   .intro-para {
-    color: white;
+    color: black;
   }
+
+  /* ---- Section Styles ---- */
 
 #portfolio-title {
     text-align: center;
@@ -90,6 +90,13 @@ header {
 .card img {
     width: 100%;
   }
+
+.skills {
+    padding: 20px 0 20px 0;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: #e0ecca;
+}
 
 .contact {
     padding: 20px 0 20px 0;
@@ -143,12 +150,12 @@ hr {
     }
 
     header li a {
-        background-color: #f6bbbb;
+        background-color: #dbf3ff;
         text-transform: uppercase;
         font-weight: bold;
         width: auto;
         text-decoration: none;
-        color: white;
+        color: black;
       }
 
     .intro {
