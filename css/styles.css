@@ -29,7 +29,7 @@ h4 {
 
 header .name {
     font-size: 25px;
-        color: black;
+        color: white;
     }
 
 header ul {
@@ -61,7 +61,7 @@ header li:last-child {
   }
 
 header {
-    background-color: #f1f1f1;
+    background-color: #f6bbbb;
     text-align: center;
     overflow: hidden;
     padding: 10px 10px 60px 10px;
@@ -70,6 +70,10 @@ header {
   }
 
   /* ---- Section Styles ---- */
+
+  .intro-para {
+    color: white;
+  }
 
 #portfolio-title {
     text-align: center;
@@ -139,12 +143,12 @@ hr {
     }
 
     header li a {
-        background-color: #f1f1f1;
+        background-color: #f6bbbb;
         text-transform: uppercase;
         font-weight: bold;
         width: auto;
         text-decoration: none;
-        color: black;
+        color: white;
       }
 
     .intro {
